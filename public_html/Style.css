@@ -20,4 +20,35 @@ and open the template in the editor.
         float: left;
         width: 20%;
     }
+    clear {
+        clear: left;
+    }
+    .navcolor {
+        display: inline;
+    }
+    .navgreen {
+        width: 20%;
+        height: 3px;
+        background-color: #a5c013;
+    }
+    .navred {
+        width: 20%;
+        height: 3px;
+        background-color: #d0353d;
+    }
+    .navblue {
+        width: 20%;
+        height: 3px;
+        background-color: #2088ca;
+    }
+    .navyellow {
+        width: 20%;
+        height: 3px;
+        background-color: #f9ae12;
+    }
+    .navpurple {
+        width: 20%;
+        height: 3px;
+        background-color: #b53d8f;
+    }
 }
