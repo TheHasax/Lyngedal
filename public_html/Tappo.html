@@ -6,17 +6,56 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Tappo - Haderslev Butikker</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Style.css">
     </head>
     <body>
-        <b></b>
-        <div class="profilepic">
-            <img src="images/Tappo.jpeg" alt="Tappoo">
-        </div>
-        <div class="profileinfo">
-            
+        <div class="wrapper">
+            <div class="profilepic">
+                <img src="images/Tappo.jpg" alt="Tappoo" id="profilepic">
+                <button type="button" onclick="document.getElementById('heart').innerHTML = Date()">
+                </button>
+                <p id="heart"></p>
+            </div>
+            <div>
+                <h1 id="profileinfo">
+                    Tappo er mødestedet med hyggelig sydlandsk atmosfære og masser af kvalitetsvine.<br>
+                    Her finder du en lang række spændende vine som du ikke finder andre steder i Danmark.
+                </h1>
+                <p class="showmetheway"><a href="http://www.maps.google.com.com"><img border="0" alt="Show me the way on Google maps" src="images/gmapsEN.png"></a></p>
+                <a href="#" name="MicrosoftExcelButton"></a>
+                <table>
+                  <thead><tr>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thur</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                    <th>Sun</th>
+                    </tr></thead>
+                  <tbody>
+                    <tr>
+                      <td>CLOSED</td>
+                      <td>17-22</td>
+                      <td>17-22</td>
+                      <td>17-22</td>
+                      <td>12-24</td>
+                      <td>12-24</td>
+                      <td>CLOSED</td>
+                    </tr>
+                  </tbody>
+    </table>
+                <p class="clear"></p>
+                <p id="brpoint"><br></p>
+                <p class="offertitle">Offer(s) of the day</p>
+                <div class="offer">
+                    <p>Open hours</p>
+                    <img src="images/Tappooffer01.jpg" class="offerimg">
+                </div>
+            </div>
         </div>
     </body>
 </html>
