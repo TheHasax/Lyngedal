@@ -7,23 +7,27 @@
 header
     +position(fixed)
 
-side-menu
-    +position(fixed, 0px 0 0px 0px)
-    max-width: 30%
-    background: #333
+.side-menu
+    +position(fixed, 0px 0 0px 2000px)
+    max-width: 50%
+    background: #dcdcdc
     z-index: 0
 
-side-category
-    +position(fixed, 0px 0 0px 0px)
-    max-width: 30%
+.side-category
+    +position(fixed, 0px 0 0px 2000px)
+    max-width: 50%
     background: #333
-    z-index: 0
-#menubutton
-    font-family: fontawesome
-    font-size: 50px
-    +position(fixed, 11% 0 0 5%)
     z-index: 1
-    text-decoration: none
-    color: #9b9b9b
-    
-    hover:
+
+#menu-toggle:checked
+    .wrapper
+        display: none
+
+#category-toggle
+    display: block
+
+    &:checked + .wrapper
+        
+        .side-category
+            left: 0px
+            transition: ease
