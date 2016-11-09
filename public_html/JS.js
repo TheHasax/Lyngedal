@@ -1,13 +1,8 @@
-var ma =["dropmenu", "dropcategory"]
-function dropMenu(x){
-    for (var m in ma) {
-        if(ma[m] !=x) {
-            document.getElementById(ma[m]).style.display = "none";
-        }
-    }
-    if(document.getElementById(x).style.display == "block"){
-        fadeOut(x);
-    } else {
-        fadeIn(x);
-    }
-}
+$( ".side-menu" ).hide();
+$( ".menu" ).click(function() {
+$( ".side-menu" ).slideToggle( "slow");
+});
+$( ".side-category" ).hide();
+$( ".category" ).click(function() {
+$( ".side-category" ).slideToggle( "slow");
+});

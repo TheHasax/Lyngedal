@@ -8,10 +8,6 @@
         <link rel="stylesheet" href="css1.css">
     </head>
     <body>
-        <input type="checkbox" id="menu-toggle">
-        
-        <input type="checkbox" id="category-toggle">
-        
         <div class="wrapper">
             <header>
                 <img src="images/Haderslevbutikkerlogo.png" alt="Haderslev Butikker" class="sitelogo">
@@ -29,9 +25,9 @@
                     </div>
                     <div id="nav-wrapper">
                         <ul>
-                            <li><label for="menu-toggle" id="menu"></label></li>
-                            <li><label for="category-toggle" id="category" class="navbar">Browse by category</label></li>
-                            <li><a class="navbar" href="#">My favourites</a></li>
+                            <li><button class="menu"></button></li>
+                            <li><label class="category">Browse by category</label></li>
+                            <li><a class="navbar" href="Tappo.html">My favourites</a></li>
                             <li><a class="navbar" href="#">Map</a></li>
                         </ul>
                     </div>
@@ -44,13 +40,8 @@
                         <div class="navpurple"></div>
                     </div>
                 </div>
-            </header>
-            <div class="body">
-                
-            </div>
-
-            <div><a href="Tappo.html">Tappo</a></div> 
-        
+           
+            <div class="clear"></div>
             <div class="side-menu">
                 <ul>
                     <li><a href="#">Menu</a></li>
@@ -60,15 +51,19 @@
                     <li><a href="#">Map</a></li>
                 </ul>
             </div>
+            <div class="clear"></div>
             <div class="side-category">
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="index">Home</a></li>
                     <li><a href="#">Browse stores</a></li>
                     <li><a href="#">Categories</a></li>
                     <li><a href="#">All offers</a></li>
                     <li><a href="#">Map</a></li>
                 </ul>
             </div>
+            </header>
         </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="JS.js"></script>
     </body>
 </html>

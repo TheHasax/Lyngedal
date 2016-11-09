@@ -10,9 +10,46 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="Style.css">
+        <link rel="stylesheet" href="font\css/font-awesome.min.css">
+        <link rel="stylesheet" href="css1.css">
+        <link rel="stylesheet" href="Styleprofile.css">
     </head>
     <body>
         <div class="wrapper">
+            <header>
+                <img src="images/Haderslevbutikkerlogo.png" alt="Haderslev Butikker" class="sitelogo">
+                <img src="images/Germanflag.png" alt="Deutch" class="lang">
+                <img src="images/Danishflag.png" alt="Danish" class="lang">
+                <div class="clear"></div>
+                <div class="space"><p><br></p></div>
+                <div id="nav">
+                    <div class="navcolor">
+                        <span class="navgreen"></span>
+                        <span class="navred"></span>
+                        <span class="navblue"></span>
+                        <span class="navyellow"></span>
+                        <span class="navpurple"></span>
+                    </div>
+                    <div id="nav-wrapper">
+                        <ul>
+                            <li><button class="menu"></button></li>
+                            <li><label class="category">Browse by category</label></li>
+                            <li><a class="navbar" href="Tappo.html">My favourites</a></li>
+                            <li><a class="navbar" href="#">Map</a></li>
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="navcolor">
+                        <div class="navgreen"></div>
+                        <div class="navred"></div>
+                        <div class="navblue"></div>
+                        <div class="navyellow"></div>
+                        <div class="navpurple"></div>
+                    </div>
+                </div>
+            </header>
+            <div class="clear"></div>
+            <div class="storepage">
             <div class="profilepic">
                 <img src="images/Tappo.jpg" alt="Tappoo" id="profilepic">
                 <button type="button" onclick="document.getElementById('heart').innerHTML = Date()"></button>
@@ -23,38 +60,17 @@ and open the template in the editor.
                     Tappo er mødestedet med hyggelig sydlandsk atmosfære og masser af kvalitetsvine.<br>
                     Her finder du en lang række spændende vine som du ikke finder andre steder i Danmark.
                 </h1>
-                <p class="showmetheway"><a href="http://www.maps.google.com.com"><img border="0" alt="Show me the way on Google maps" src="images/gmapsEN.png"></a></p>
-                <a href="#" name="MicrosoftExcelButton"></a>
-                <table>
-                  <thead><tr>
-                    <th>Mon</th>
-                    <th>Tue</th>
-                    <th>Wed</th>
-                    <th>Thur</th>
-                    <th>Fri</th>
-                    <th>Sat</th>
-                    <th>Sun</th>
-                    </tr></thead>
-                  <tbody>
-                    <tr>
-                      <td>CLOSED</td>
-                      <td>17-22</td>
-                      <td>17-22</td>
-                      <td>17-22</td>
-                      <td>12-24</td>
-                      <td>12-24</td>
-                      <td>CLOSED</td>
-                    </tr>
-                  </tbody>
-    </table>
+                <div class="clear"></div>
+                <p class="showmetheway"><a href="http://www.maps.google.com"><img border="0" alt="Show me the way on Google maps" src="images/gmapsEN.png"></a></p>
+                <div class="clear"></div>
                 <div class="openhours">
-                    <div class="mon"><p class="overbox">MON</p><p class="underbox">CLOSED</p></div>
+                    <div class="mon"><p class="overbox">MON</p><p class="underbox, closed">CLOSED</p></div>
                     <div class="tue"><p class="overbox">TUE</p><p class="underbox">17-22</p></div>
                     <div class="wed"><p class="overbox">WED</p><p class="underbox">17-22</p></div>
                     <div class="thur"><p class="overbox">THUR</p><p class="underbox">17-22</p></div>
                     <div class="fri"><p class="overbox">FRI</p><p class="underbox">12-24</p></div>
                     <div class="sat"><p class="overbox">SAT</p><p class="underbox">12-24</p></div>
-                    <div class="sun"><p class="overbox">SUN</p><p class="underbox">CLOSED</p></div>
+                    <div class="sun"><p class="overbox">SUN</p><p class="underbox, closed">CLOSED</p></div>
                 </div>
                 <p class="clear"></p>
                 <p id="brpoint"><br></p>
@@ -64,6 +80,29 @@ and open the template in the editor.
                     <img src="images/Tappooffer01.jpg" class="offerimg">
                 </div>
             </div>
+            <div class="clear"></div>
+            <div class="side-menu">
+                <ul>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Browse stores</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">All offers</a></li>
+                    <li><a href="#">Map</a></li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+            <div class="side-category">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Browse stores</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">All offers</a></li>
+                    <li><a href="#">Map</a></li>
+                </ul>
+            </div>
+            </div>
         </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="JS.js"></script>
     </body>
 </html>
