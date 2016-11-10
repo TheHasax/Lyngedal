@@ -5,6 +5,7 @@
   bottom: 0px;
   left: 0px;
   max-width: 50%;
+  background: -webkit-linear-gradient(#eeeeee, #dcdcdc, #d8d8d8);
   background: linear-gradient(#eeeeee, #dcdcdc, #d8d8d8); 
   z-index:1000000;
   font-weight:bold;
@@ -22,6 +23,7 @@
 }
 .side-menu li {
     display: block;
+    background: -webkit-linear-gradient(#eeeeee, #dcdcdc, #d8d8d8);
     background: linear-gradient(#eeeeee, #dcdcdc, #d8d8d8)
 }
 .side-menu li:hover{
@@ -78,6 +80,7 @@
     display: block;
     padding:15px 0 15px 0;
     border-bottom:#1d1f20 1px solid;
+    background: -webkit-linear-gradient(#eeeeee, #dcdcdc, #d8d8d8);
     background: linear-gradient(#eeeeee, #dcdcdc, #d8d8d8)
 }
 .side-category li:hover{
@@ -104,5 +107,3 @@
     text-decoration:none;
     color:grey;
 }
-
-/*# sourceMappingURL=css1.css.map */
