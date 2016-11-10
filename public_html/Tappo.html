@@ -51,9 +51,8 @@ and open the template in the editor.
             <div class="clear"></div>
             <div class="storepage">
             <div class="profilepic">
-                <img src="images/Tappo.jpg" alt="Tappoo" id="profilepic">
-                <button type="button" onclick="document.getElementById('heart').innerHTML = Date()"></button>
-                <p id="heart"></p>
+                <div class="heart"><p></p></div>
+                <div class="favourite"><p></p></div>
             </div>
             <div>
                 <h1 id="profileinfo">
@@ -75,6 +74,14 @@ and open the template in the editor.
                 <p class="clear"></p>
                 <p id="brpoint"><br></p>
                 <p class="offertitle">Offer(s) of the day</p>
+                <div class="offer">
+                    <p>Open hours</p>
+                    <img src="images/Tappooffer01.jpg" class="offerimg">
+                </div>
+                <div class="offer">
+                    <p>Open hours</p>
+                    <img src="images/Tappooffer01.jpg" class="offerimg">
+                </div>
                 <div class="offer">
                     <p>Open hours</p>
                     <img src="images/Tappooffer01.jpg" class="offerimg">
@@ -104,5 +111,6 @@ and open the template in the editor.
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="JS.js"></script>
+        <script src="profile.js"></script>
     </body>
 </html>
